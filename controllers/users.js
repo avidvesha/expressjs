@@ -31,8 +31,7 @@ module.exports = {
         status: true,
         data: users,
         method: req.method,
-        url: req.url,
-        message: "Data berhasil diubah"
+        url: req.url
       })
     } catch (error) {
       res.status(400).json({success:false})
